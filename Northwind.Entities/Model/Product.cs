@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Northwind.Entities.Abstract;
+using System;
 
 namespace Northwind.Entities.Model
 {
-    public class Product
+    public class Product : IEntity
     {
         public int ProductId { get; set; }
         public int CategoryId { get; set; }
