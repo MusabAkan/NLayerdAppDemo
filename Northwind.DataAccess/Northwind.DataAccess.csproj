@@ -51,8 +51,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\ICategoryService.cs" />
     <Compile Include="Abstract\IEntitiyRepository.cs" />
-    <Compile Include="Abstract\Interface1.cs" />
+    <Compile Include="Abstract\ICategoryDal.cs" />
     <Compile Include="Abstract\IProductDal.cs" />
     <Compile Include="Model\EntitiyFramework\EfCategoryDal.cs" />
     <Compile Include="Model\EntitiyFramework\EfEntityRepositoryBase.cs" />
